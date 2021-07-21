@@ -1,0 +1,9 @@
+.header__lang-link_en {
+  margin: 0;
+  text-decoration: none;
+  vertical-align: bottom;
+}
+
+.header__lang-link_en:active:lang(en) {
+  text-decoration: underline;
+}

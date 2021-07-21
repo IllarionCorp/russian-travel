@@ -1,0 +1,10 @@
+.header__lang-link_ru {
+  margin: 0;
+  text-decoration: none;
+  vertical-align: bottom;
+  margin-right: 18px;
+}
+
+.header__lang-link_ru:active:lang(ru) {
+  text-decoration: underline;
+}

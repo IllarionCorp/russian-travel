@@ -1,34 +1,53 @@
 .header {
+  display: flex;
   background-image: url(../../images/header__logo.svg);
   background-repeat: no-repeat;
-  grid-template-rows: auto;
-  grid-template-columns: auto auto;
+  justify-content: space-between;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 320px) {
   .header {
-    background-size: 176px 52px;
-    max-width: 1184px;
+    margin-bottom: 48px;
   }
 }
 
-@media screen and (max-width: 1024) {
+@media screen and (min-width: 768px) {
   .header {
+    margin-top: 28px;
     background-size: 176px 52px;
+    height: 52px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+  .header {
+    max-width: 1184px;
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .header {
     max-width: 928px;
   }
 }
 
-@media screen and (max-width: 768) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .header {
-    background-size: 176px 52px;
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 320) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .header {
+    margin-top: 16px;
     background-size: 142px 42px;
-    max-width: 288px;
+    min-width: 288px;
+    min-height: 42px;
   }
 }
+
+
