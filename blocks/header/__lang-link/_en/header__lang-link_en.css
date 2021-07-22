@@ -4,6 +4,6 @@
   vertical-align: bottom;
 }
 
-.header__lang-link_en:active:lang(en) {
+.header__lang-link_en:lang(en) {
   text-decoration: underline;
 }

@@ -1,3 +1,5 @@
 .photo-grid {
+  display: grid;
   padding-top: 92px;
+  grid-auto-flow: row;
 }
