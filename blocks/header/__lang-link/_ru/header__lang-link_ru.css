@@ -5,6 +5,6 @@
   margin-right: 18px;
 }
 
-.header__lang-link_ru:active:lang(ru) {
+.header__lang-link_ru:active::after {
   text-decoration: underline;
 }
