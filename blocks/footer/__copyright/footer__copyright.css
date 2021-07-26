@@ -1,8 +1,10 @@
 .footer__copyright {
+  display: flex;
   margin: 0;
   color: #fff;
   font-style: normal;
   font-weight: normal;
+  justify-content: end;
 }
 
 @media screen and (max-width: 768px) {

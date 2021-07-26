@@ -4,6 +4,8 @@
   font-weight: 900;
   text-align: center;
   color: #fff;
+  margin: auto auto 32px;
+  z-index: 3;
 }
 
 @media screen and (max-width: 768px) {

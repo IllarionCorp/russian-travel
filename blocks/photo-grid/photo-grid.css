@@ -1,5 +1,35 @@
 .photo-grid {
   display: grid;
-  padding-top: 92px;
   grid-auto-flow: row;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 0 48px;
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 24px;
+    gap: 14px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 16px;
+    gap: 12px;
+  }
+}
+
+
+
+

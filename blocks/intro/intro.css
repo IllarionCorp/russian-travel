@@ -2,22 +2,27 @@
   display: grid;
   padding-top: 92px;
   grid-template-rows: auto auto auto;
+  justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .intro {
     grid-template-columns: minmax(288px, 720px);
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .intro {
-    grid-template-columns: minmax(720px, 690px);
+    grid-template-columns: minmax(720px, 928px);
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .intro {
-    grid-template-columns: 690px;
+    grid-template-columns: 984px;
   }
 }

@@ -1,9 +1,13 @@
-.cover__overlay {
+.cover__overlay::before {
+  position: absolute;
+  content: "";
   max-width: 100%;
   color: #2A2C2F;
   opacity: 0.3;
+  z-index: 2;
+  height: 100%;
 }
 
-.cover__overlay:hover {
+.cover__overlay:hover::before {
   opacity: 0.8;
 }

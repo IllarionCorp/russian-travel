@@ -1,4 +1,4 @@
-.content {
+/* .content {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(5, auto);
@@ -26,4 +26,4 @@
   .content {
     grid-template-rows: repeat(2, 984px) 1184px 984px 1184px;
   }
-}
+} */
