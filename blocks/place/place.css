@@ -1,2 +1,42 @@
 .place {
+  display: grid;
+  grid-template-areas:
+  "title website"
+  "image paragraph";
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+@media screen and (min-width: 768px) {
+  .place {
+    column-gap: 48px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+  .place {
+    row-gap: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place {
+    row-gap: 32px;
+    grid-template-columns: minmax(auto, 440px) auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    row-gap: 40px;
+    grid-template-columns: minmax(auto, 460px) auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }

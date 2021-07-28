@@ -5,12 +5,15 @@
   font-style: normal;
   font-weight: normal;
   justify-content: end;
+  vertical-align: bottom;
+  align-items: flex-end;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer__copyright {
     font-size: 14px;
     line-height: 14px;
+    margin-top: 16px;
   }
 }
 

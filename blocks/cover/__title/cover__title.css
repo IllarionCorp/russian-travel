@@ -6,6 +6,7 @@
   color: #fff;
   margin: auto auto 32px;
   z-index: 3;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
