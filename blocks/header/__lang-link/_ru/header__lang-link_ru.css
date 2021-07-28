@@ -5,6 +5,6 @@
   margin-right: 18px;
 }
 
-.header__lang-link_ru:visited(ru) {
+.header__lang-link_ru:active {
   text-decoration: underline;
 }
