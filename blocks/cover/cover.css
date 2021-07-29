@@ -21,13 +21,13 @@
 @media screen and (max-width: 768px) {
   .cover {
     height: 480px;
-    margin-top: 90px;
+    margin-top: calc(90px - 25px);
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover {
     height: 200px;
-    margin-top: 66px;
+    margin-top: calc(66px - 25px);
   }
 }
