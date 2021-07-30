@@ -5,6 +5,21 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 1280px) {
+  .intro {
+    grid-template-columns: 984px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .intro {
+    grid-template-columns: minmax(720px, 928px);
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-top: 88px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .intro {
     grid-template-columns: minmax(288px, 720px);
@@ -14,17 +29,6 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .intro {
-    grid-template-columns: minmax(720px, 928px);
-    margin-left: 24px;
-    margin-right: 24px;
-    padding-top: 88px;
-  }
-}
 
-@media screen and (min-width: 1024px) {
-  .intro {
-    grid-template-columns: 984px;
-  }
-}
+
+

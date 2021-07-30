@@ -6,7 +6,7 @@
   background-position: center;
   background-size: cover;
   margin: 0 auto;
-  height: 720px;
+  min-height: 720px;
   display: flex;
   align-items: center;
   margin-top: 92px;
@@ -14,20 +14,20 @@
 
 @media screen and (max-width: 1024px) {
   .cover {
-    height: 640px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    height: 480px;
-    margin-top: calc(90px - 25px);
+    min-height: 480px;
+    margin-top: 90px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover {
-    height: 200px;
-    margin-top: calc(66px - 25px);
+    min-height: 200px;
+    margin-top: 66px;
   }
 }

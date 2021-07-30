@@ -1,12 +1,15 @@
 .header__lang-link {
-  display: flex;
-  align-items: flex-end;
   margin: 0;
   padding: 0;
   color: #fff;
   font-weight: 400;
   font-style: normal;
-  list-style: none;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 

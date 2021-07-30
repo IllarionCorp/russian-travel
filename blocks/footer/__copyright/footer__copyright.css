@@ -7,11 +7,11 @@
   justify-content: end;
   vertical-align: bottom;
   align-items: flex-end;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 767px) {
   .footer__copyright {
-    font-size: 14px;
     line-height: 14px;
     margin-top: 16px;
   }
@@ -19,7 +19,6 @@
 
 @media screen and (min-width: 768px) {
   .footer__copyright {
-    font-size: 14px;
     line-height: 16px;
   }
 }
